@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>legal-tn-connect</title>
+    <meta name="description" content="legal service" />
+    <meta name="author" content="Mukesh" />
+
+    <meta property="og:title" content="legal-tn-connect" />
+    <meta property="og:description" content="legal service" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="favicon.ico" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@mukesh_dev" />
+    <meta name="twitter:image" content="favicon.ico" />
+    
+    <!-- Preconnect to Google Maps API for faster loading -->
+    <link rel="preconnect" href="https://maps.googleapis.com">
+    <link rel="preconnect" href="https://maps.gstatic.com">
+
+    <!-- Chatbase Integration -->
+    <script>
+    (function(){
+      if(!window.chatbase || window.chatbase("getState") !== "initialized"){
+        window.chatbase = (...arguments) => {
+          if(!window.chatbase.q){
+            window.chatbase.q = []
+          }
+          window.chatbase.q.push(arguments)
+        };
+        window.chatbase = new Proxy(window.chatbase, {
+          get(target, prop){
+            if(prop === "q"){
+              return target.q
+            }
+            return (...args) => target(prop, ...args)
+          }
+        })
+      }
+      
+      const onLoad = function(){
+        const script = document.createElement("script");
+        script.src = "https://www.chatbase.co/embed.min.js";
+        script.id = "nf2LVvaaEURxbqPwDqoNL";
+        script.domain = "www.chatbase.co";
+        document.body.appendChild(script);
+      };
+      
+      if(document.readyState === "complete"){
+        onLoad()
+      } else {
+        window.addEventListener("load", onLoad)
+      }
+    })();
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
+    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
