@@ -4,7 +4,7 @@ AI-powered legal marketplace integrating Reinforcement Learning, Fuzzy Logic, an
 =======
 
 ## Project info
-
+![image alt](https://github.com/Mukesh0503/AI-Based-legal-service/blob/b4d1f0c1890f432f26b626d300fd82778ed0fad3/Screenshot%202025-11-08%20173633.png)
 
 ## How can I edit this code?
 
