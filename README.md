@@ -6,7 +6,6 @@ AI-powered legal marketplace integrating Reinforcement Learning, Fuzzy Logic, an
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/27db256c-905a-400a-8e03-eb55bcf082c7
 
 ## How can I edit this code?
 
