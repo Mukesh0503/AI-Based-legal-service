@@ -2,7 +2,6 @@
 # AI-Based-legal-service
 AI-powered legal marketplace integrating Reinforcement Learning, Fuzzy Logic, and Blockchain to enhance transparency and incentive fairness. Built using React, TypeScript, Python, and Chatbase, featuring chatbot-driven assistance, feedback sentiment analysis, and adaptive reward systems for scalable, real-time legal service delivery.
 =======
-# Welcome to your Lovable project
 
 ## Project info
 
@@ -56,6 +55,3 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
->>>>>>> a1a97ec (Initial commit)
