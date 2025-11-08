@@ -3,8 +3,9 @@
 AI-powered legal marketplace integrating Reinforcement Learning, Fuzzy Logic, and Blockchain to enhance transparency and incentive fairness. Built using React, TypeScript, Python, and Chatbase, featuring chatbot-driven assistance, feedback sentiment analysis, and adaptive reward systems for scalable, real-time legal service delivery.
 =======
 
-## Project info
+## Project output
 ![image alt](https://github.com/Mukesh0503/AI-Based-legal-service/blob/b4d1f0c1890f432f26b626d300fd82778ed0fad3/Screenshot%202025-11-08%20173633.png)
+![image alt](https://github.com/Mukesh0503/AI-Based-legal-service/blob/f3424e8d9f4c8d837575e6fd961d1422d84a36af/Screenshot%202025-11-08%20173656.png)
 
 ## How can I edit this code?
 
